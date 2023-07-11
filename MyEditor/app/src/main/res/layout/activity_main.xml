@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Editor"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        android:textColor="#805D8E"
+        />
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:lottie_rawRes="@raw/icon"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_loop="true"/>-->
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/picture"
+        android:layout_margin="20dp"
+        android:id="@+id/imageView"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="52dp"
+        android:layout_marginLeft="52dp"
+        android:text="Select Photo"
+        android:background="#805D8E"
+        android:id="@+id/btnStartNow"
+        android:shadowRadius="@integer/material_motion_duration_medium_1"
+        />
+
+
+</LinearLayout>
